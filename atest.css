@@ -7,12 +7,19 @@
 background-color: red;
  
 }
+}
 
 @media only screen and (max-width: 412px) { 
 body { 
 font-size: 40px; 
-background-color: yellow;
-
- 
+background-color: yellow; 
 }
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+  
+
 
