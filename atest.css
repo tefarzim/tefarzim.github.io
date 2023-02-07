@@ -8,7 +8,7 @@ background-color: red;
  
 }
 
-@media screen and (max-width: 412px) { 
+@media screen and (min-width: 412px) { 
 body { 
 font-size: 40px; 
 background-color: yellow;
